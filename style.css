@@ -1,11 +1,33 @@
 #pageheader {
     font-family: merriweather;
 }
-p {
+.navbar li {
+    display: inline;
+    border: solid;
+    padding: 3px 5px 3px 5px;
+    background-color: rgb(208, 255, 210);
+    margin-right: 2px;
+}
+.navbar {
+    background-color: rgb(19, 135, 38);
+    width: 511px;
+    padding: 10px;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+}
+section p {
     width: 600px;
     background: rgb(255,208,208);
     border: solid;
     padding: 20px;
     font-family: Georgia;
     text-align: justify;
+}
+aside {
+    background-color: rgb(208, 255, 210);
+    width: 300px;
+    padding: 1px 0 1px 15px;
+    border: solid;
 }
