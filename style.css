@@ -1,3 +1,8 @@
 p {
-  width: 600px;
+    width: 600px;
+    background: rgb(255,208,208);
+    border: solid;
+    padding: 20px;
+    font-family: Georgia;
+    text-align: justify;
 }
