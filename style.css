@@ -25,9 +25,6 @@ h1,h2,h3 {
   color: bc4749;
   font-weight: 500;
 }
-p {
-  font-family: Georgia;
-}
 section.content {
     width: 500px;
     background-color: a7c957;
