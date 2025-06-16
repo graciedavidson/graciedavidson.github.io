@@ -25,7 +25,7 @@ h1,h2,h3,h4,h5 {
   color: rgb(188, 71, 73);
   font-weight: 500;
 }
-section.content,article p {
+section.content {
     width: 60%;
     background-color: rgb(167, 201, 87);
     border: solid;
