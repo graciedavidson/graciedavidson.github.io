@@ -26,14 +26,11 @@ h1,h2,h3,h4,h5 {
   font-weight: 500;
 }
 section.content {
-    width: 50%;
+    width: 60%;
     background-color: rgb(167, 201, 87);
     border: solid;
     padding: 0 20px;
     text-align: justify;
-}
-#thesis section {
-  
 }
 aside {
     background-color: rgb(167, 201, 87);
@@ -43,11 +40,20 @@ aside {
     border: solid;
 }
 figure {
-  float: right;
-  max-width: 40%;
+  max-width: 30%;
   height: auto;
-  margin: 1em;
-  padding: 1em;
+  text-align: center;
+  background-color: rgb(56, 102, 65);
+  font-style: italic;
+  margin: 0.5em;
+  padding: 1em 0.5em 0.5em 0.5em;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+figcaption {
+    padding: 9px 0 5px 0;
 }
 footer {
   padding: 20px 0 20px 0;
