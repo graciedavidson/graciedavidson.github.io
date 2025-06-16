@@ -1,33 +1,54 @@
-#pageheader {
-    font-family: merriweather;
+html {
+  background-color: f2e8cf;
+  font-family: Georgia;
 }
 .navbar li {
     display: inline;
     border: solid;
     padding: 3px 5px 3px 5px;
-    background-color: rgb(208, 255, 210);
+    background-color: a7c957;
     margin-right: 2px;
 }
 .navbar {
-    background-color: rgb(19, 135, 38);
-    width: 513px;
+    background-color: 386641;
     padding: 10px;
+    width: 555px;
 }
 .navbar a {
     color: black;
     text-decoration: none;
 }
-section p {
-    width: 600px;
-    background: rgb(255,208,208);
+#pageheader {
+  font-weight: bold;
+}
+h1,h2,h3 {
+  color: bc4749;
+  font-weight: 500;
+}
+p {
+  font-family: Georgia;
+}
+section.content {
+    width: 500px;
+    background-color: a7c957;
     border: solid;
-    padding: 20px;
-    font-family: Georgia;
+    padding: 0 20px;
     text-align: justify;
 }
 aside {
-    background-color: rgb(208, 255, 210);
+    background-color: a7c957;
     width: 300px;
-    padding: 1px 0 1px 15px;
+    padding: 1px 15px 1px 15px;
+    margin-top: 20px;
     border: solid;
+}
+figure {
+  float: right;
+  max-width: 30%;
+  height: auto;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+footer {
+  padding: 20px 0 20px 0;
 }
