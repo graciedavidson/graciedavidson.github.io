@@ -1,16 +1,16 @@
 html {
-  background-color: #f2e8cf;
+  background-color: rgb(242, 232, 207);
   font-family: Georgia;
 }
 .navbar li {
     display: inline;
     border: solid;
     padding: 3px 5px 3px 5px;
-    background-color: #a7c957;
+    background-color: rgb(167, 201, 87);
     margin-right: 2px;
 }
 .navbar {
-    background-color: #386641;
+    background-color: rgb(56, 102, 65);
     padding: 10px;
     width: 555px;
 }
@@ -22,18 +22,18 @@ html {
   font-weight: bold;
 }
 h1,h2,h3 {
-  color: #bc4749;
+  color: rgb(188, 71, 73);
   font-weight: 500;
 }
 section.content {
     width: 500px;
-    background-color: #a7c957;
+    background-color: rgb(167, 201, 87);
     border: solid;
     padding: 0 20px;
     text-align: justify;
 }
 aside {
-    background-color: #a7c957;
+    background-color: rgb(167, 201, 87);
     width: 300px;
     padding: 1px 15px 1px 15px;
     margin-top: 20px;
