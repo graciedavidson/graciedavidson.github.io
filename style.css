@@ -26,7 +26,7 @@ h1,h2,h3,h4,h5 {
   font-weight: 500;
 }
 section.content {
-    width: 500px;
+    width: 50%;
     background-color: rgb(167, 201, 87);
     border: solid;
     padding: 0 20px;
