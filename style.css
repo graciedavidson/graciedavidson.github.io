@@ -3,20 +3,20 @@ html {
   font-family: Georgia;
 }
 .navbar li {
-    display: inline;
-    border: solid;
-    padding: 3px 5px 3px 5px;
-    background-color: rgb(167, 201, 87);
-    margin-right: 2px;
+  display: inline;
+  border: solid;
+  padding: 3px 5px 3px 5px;
+  background-color: rgb(167, 201, 87);
+  margin-right: 2px;
 }
 .navbar {
-    background-color: rgb(56, 102, 65);
-    padding: 10px;
-    width: 555px;
+  background-color: rgb(56, 102, 65);
+  padding: 10px;
+  width: 555px;
 }
 .navbar a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 #pageheader {
   font-weight: bold;
@@ -26,11 +26,11 @@ h1,h2,h3,h4,h5 {
   font-weight: 500;
 }
 section.content {
-    width: 60%;
-    background-color: rgb(167, 201, 87);
-    border: solid;
-    padding: 0 20px;
-    text-align: justify;
+  width: 60%;
+  background-color: rgb(167, 201, 87);
+  border: solid;
+  padding: 0 20px;
+  text-align: justify;
 }
 section.coverletter {
   border: solid 2px rgb(188, 71, 73);
@@ -40,11 +40,11 @@ section.coverletter {
   text-align: justify;
 }
 aside {
-    background-color: rgb(167, 201, 87);
-    width: 300px;
-    padding: 1px 15px 1px 15px;
-    margin-top: 20px;
-    border: solid;
+  background-color: rgb(167, 201, 87);
+  width: 300px;
+  padding: 1px 15px 1px 15px;
+  margin-top: 20px;
+  border: solid;
 }
 figure {
   float: right;
@@ -57,11 +57,13 @@ figure {
   padding: 1em 0.5em 0.5em 0.5em;
 }
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 7px;
 }
 figcaption {
-    padding: 9px 0 5px 0;
+  padding: 3px;
+  background-color: rgb(188, 71, 73);
 }
 footer {
   padding: 20px 0 20px 0;
