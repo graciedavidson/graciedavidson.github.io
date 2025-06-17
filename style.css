@@ -59,7 +59,7 @@ aside {
   width: 300px;
   padding: 1px 15px 1px 15px;
   margin-top: 20px;
-  border: solid;
+  border: solid 7px rgb(56, 102, 65);
 }
 figure {
   float: right;
