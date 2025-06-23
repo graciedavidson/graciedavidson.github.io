@@ -1,0 +1,85 @@
+html {
+  background-color: rgb(242, 232, 207);
+  font-family: Georgia;
+}
+.navbar li {
+  display: inline;
+  border: solid;
+  padding: 3px 5px 3px 5px;
+  background-color: rgb(167, 201, 87);
+  margin-right: 2px;
+}
+.navbar {
+  background-color: rgb(56, 102, 65);
+  padding: 10px;
+  width: 555px;
+}
+.navbar a {
+  color: black;
+  text-decoration: none;
+}
+#pageheader {
+  font-weight: bold;
+}
+h1,h2,h3,h4,h5 {
+  color: rgb(188, 71, 73);
+  font-weight: 500;
+}
+h1 {
+  font-size: 1.6em;
+}
+h2 {
+  font-size: 1.45em;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4 {
+  font-size: 1.1em;
+}
+h5 {
+  font-size: 1em;
+}
+section.content {
+  width: 60%;
+  background-color: rgb(167, 201, 87);
+  border: solid;
+  padding: 0 20px;
+  text-align: justify;
+}
+section.coverletter {
+  border: solid 2px rgb(188, 71, 73);
+  background-color: rgb(247, 177, 178);
+  width: 60%;
+  padding: 0 20px;
+  text-align: justify;
+}
+aside {
+  background-color: rgb(167, 201, 87);
+  width: 300px;
+  padding: 1px 15px 1px 15px;
+  margin-top: 20px;
+  border: solid 7px rgb(56, 102, 65);
+}
+figure {
+  float: right;
+  max-width: 30%;
+  height: auto;
+  text-align: center;
+  background-color: rgb(56, 102, 65);
+  font-style: italic;
+  margin: 0.5em;
+  padding: 1em 1em 0.5em 1em;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 6px;
+}
+figcaption {
+  padding: 3px;
+  background-color: rgb(188, 71, 73);
+}
+footer {
+  padding: 20px 0 20px 0;
+}
