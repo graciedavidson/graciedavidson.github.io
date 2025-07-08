@@ -1,0 +1,199 @@
+/* Please insert all your CSS code into this document */
+/* Global */
+body {
+	font-family: PT Serif;
+}
+header.firstheader {
+	width: 100%;
+	height: 60px;
+	padding: 0 0 10px 20px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #e5e5f7;
+	background-image:  repeating-linear-gradient(45deg, #158343 25%, transparent 25%, transparent 75%, #158343 75%, #158343), repeating-linear-gradient(45deg, #158343 25%, #e5e5f7 25%, #e5e5f7 75%, #158343 75%, #158343);
+	background-position: 0 0, 10px 10px;
+	background-size: 20px 20px;
+	color: pink;
+	font-family: Limelight;
+	font-size: .9em;
+	text-shadow: 
+        1.5px 1.5px 3px black, 
+        -1.5px -1.5px 3px black,
+        1.5px -1.5px 3px black,
+        -1.5px 1.5px 3px black;
+}
+footer {
+	width: 100%;
+	height: 90px;
+	padding-bottom: 15px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #e5e5f7;
+	background-image:  repeating-linear-gradient(45deg, #158343 25%, transparent 25%, transparent 75%, #158343 75%, #158343), repeating-linear-gradient(45deg, #158343 25%, #e5e5f7 25%, #e5e5f7 75%, #158343 75%, #158343);
+	background-position: 0 0, 10px 10px;
+	background-size: 20px 20px;
+	color: pink;
+	font-size: .9em;
+	text-shadow:
+        1.5px 1.5px 3px black, 
+        -1.5px -1.5px 3px black,
+        1.5px -1.5px 3px black,
+        -1.5px 1.5px 3px black;	
+}
+#wrapper {
+	margin: 70px 0 110px 0;
+}
+h2 {
+	font-family: Limelight;
+}
+/* Page One */
+.pageone {
+	position: relative;
+}
+#asideone {
+	position: fixed;
+	top: 80px;
+	left: 10px;
+	width: 150px;
+	margin-left: 20px;
+}
+.pageonearticles {
+	position: absolute;
+	width: 75%;
+	height: 495px;
+	top: 0;
+	right: 75px;
+	padding: 0 30px;
+	margin-left: 150px;
+	overflow: scroll;
+}
+.img11, .img12, .img13, .img14 {
+	display: block;
+	width: 70%;
+	margin: 0 auto;
+}
+/* Page Two */
+#asidetwo {
+	float: left;
+	margin-top: -30px;
+	margin-left: 25px;
+}
+.pagetwoarticles {
+	float: right;
+	width: 1000px;
+	padding: 10px 30px;
+	margin-right: 100px;
+	margin-bottom: 95px;
+}
+.img21, .img24 {
+	display: block;
+	width: 600px;
+	margin: 20px auto;
+}
+.img22 {
+	float: left;
+	width: 250px;
+	margin: 5px 25px 10px 0;
+}
+.img23 {
+	float: right;
+	width: 250px;
+	margin: 0 0 10px 25px;
+}
+#footertwo {
+	clear: both;
+}
+/* Page Three */
+#asidethree {
+	float: left;
+	min-width: 150px;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+.pagethreearticles {
+	min-width: 400px;
+	max-width: 1000px;
+	padding: 30px 30px 10px;
+	margin-left: 15%;
+	margin-bottom: 95px;
+	overflow: scroll;
+}
+.img31, .img34 {
+	display: block;
+	width: 65%;
+	margin: 20px auto;
+}
+.img32 {
+	float: left;
+	width: 30%;
+	margin: 5px 25px 10px 0;
+}
+.img33 {
+	float: right;
+	width: 30%;
+	margin: 0 0 10px 25px;
+}
+/* Page Four */
+#asidefour {
+	display: inline-block;
+	vertical-align: top;
+	width: 15%;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+.pagefourarticles {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+	padding-top: 20px;
+}
+.img41, .img44 {
+	display: block;
+	width: 70%;
+	margin: 20px auto;
+}
+.img42 {
+	float: left;
+	width: 30%;
+	margin: 5px 25px 10px 0;
+}
+.img43 {
+	float: right;
+	width: 30%;
+	margin: 0 0 10px 25px;
+}
+/* Page Five */
+#asidefive {
+	width: 150px;
+	margin-top: 100px;
+	margin-left: 25px;
+}
+.img51 {
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+}
+.mainsection header {
+	text-align: center;
+}
+.gallery figure img {
+	width: 300px;
+	margin: 10px 13px 10px 10px;
+	box-shadow: 3px 3px 5px 3px gray;
+}
+.gallery figure {
+	display: inline-block;
+	margin: 20px;
+	object-fit: contain;
+	border: solid 5px gold;
+}
+.gallery figcaption {
+	padding: 0 7px 7px 7px;
+	text-align: center;
+}
+.gallery figure img:hover {
+	opacity: 0.4;
+	transition: .3s ease;
+}
